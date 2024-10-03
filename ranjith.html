@@ -10,14 +10,18 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #eef2f3;
             color: #333;
         }
         header {
-            background-color: #4CAF50;
-            padding: 20px;
+            background-color: #1f3a93;
+            padding: 30px;
             text-align: center;
             color: white;
+        }
+        header img {
+            width: 80px;
+            height: 80px;
         }
         section {
             padding: 20px;
@@ -26,7 +30,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1, h2 {
-            color: #333;
+            color: #1f3a93;
         }
         p {
             line-height: 1.6;
@@ -36,7 +40,7 @@
             margin-bottom: 20px;
         }
         .contact-info a {
-            color: #4CAF50;
+            color: #1f3a93;
             text-decoration: none;
         }
         .contact-info a:hover {
@@ -50,13 +54,37 @@
             background-color: #f4f4f4;
             margin: 5px 0;
             padding: 10px;
-            border-left: 5px solid #4CAF50;
+            border-left: 5px solid #1f3a93;
         }
         footer {
             text-align: center;
             padding: 20px;
-            background-color: #4CAF50;
+            background-color: #1f3a93;
             color: white;
+        }
+        .visualization-section {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-left: 5px solid #1f3a93;
+        }
+        .github-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .github-link a {
+            color: #1f3a93;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .github-link a:hover {
+            text-decoration: underline;
+        }
+        .cartoon {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .cartoon img {
+            width: 150px;
         }
     </style>
 </head>
@@ -64,10 +92,11 @@
     <header>
         <h1>Ranjith Reddy C</h1>
         <p>Certified Cloud Data Engineer | ETL Developer | Snowflake Specialist</p>
+        <img src="https://example.com/data_engineer_cartoon.png" alt="Data Engineer Cartoon">
     </header>
 
     <section class="contact-info">
-        <p>📞 +1 (630) 635-5850 | 📧 <a href="mailto:cranjithreddy34@gmail.com">cranjithreddy34@gmail.com</a> | <a href="#">LinkedIn: RanjithReddyC</a></p>
+        <p>📞 +1 (630) 635-5850 | 📧 <a href="mailto:cranjithreddy34@gmail.com">cranjithreddy34@gmail.com</a> | <a href="https://www.linkedin.com/in/ranjith-reddy">LinkedIn: RanjithReddyC</a></p>
         <p>Plainfield, IL 60585</p>
     </section>
 
@@ -122,6 +151,19 @@
     <section>
         <h2>Education</h2>
         <p>Master of Business Analytics - Lewis University (March 2022 - Dec 2023)</p>
+    </section>
+
+    <section class="visualization-section">
+        <h2>Visualization Techniques</h2>
+        <p>This project also includes advanced visualization techniques using Tableau. The visualizations provide clear insights into sales trends, customer behavior, and product performance. It allows interactive filtering and visual representation of the data, making the analysis process easier and more intuitive.</p>
+    </section>
+
+    <div class="cartoon">
+        <img src="https://example.com/data_pipeline_cartoon.png" alt="Data Pipeline Cartoon">
+    </div>
+
+    <section class="github-link">
+        <p>Check out my project on GitHub: <a href="https://github.com/RanjithC-lab/Amazon-Sales-Data-Analysis">Amazon Sales Data Analysis</a></p>
     </section>
 
     <footer>
